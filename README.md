@@ -1,3 +1,3 @@
-# 타입스크립트
+# Typechain
 
-컴파일언어, 정적타입언어
+Learning Typescript by making a Blockchain with it

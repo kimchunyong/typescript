@@ -6,7 +6,12 @@
     "author": "kimchunyong <lovemy58511@gmail.com>",
     "license": "MIT",
     "scripts": {
-        "start": "node index.js",
-        "prestart": "tsc"
+        "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+    },
+    "devDependencies": {
+        "tsc-watch": "^1.0.17"
+    },
+    "dependencies": {
+        "crypto-js": "^3.1.9-1"
     }
 }
