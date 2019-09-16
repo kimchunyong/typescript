@@ -1,4 +1,5 @@
 
+/*
 class Human {
     public name: string;
     private age: number;
@@ -18,5 +19,28 @@ const sayHi = (person: Human): string => {
 }
 
 console.log(sayHi(lynn));
+*/
+
+class Block {
+    public index: number;
+    public hash: string;
+    public previousHash: string;
+    public data: string;
+    public timestampe: number;
+
+    constructor(
+        index: number,
+        hash: string,
+        previousHash: string,
+        data: string,
+        timestampe: number,
+    ) {
+        this.index = index;
+        this.hash = hash;
+        this.previousHash = previousHash;
+        this.data = data;
+        this.timestampe = timestampe;
+    }
+}
 
 export { };
